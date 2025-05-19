@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>7b1f1575-8b5d-4c16-b238-9d4b882b9a7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>0a5fc6e5-f2f4-4323-9044-8a54db97f4ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z</value>
+      <webElementGuid>41f4cc29-2c5e-4e32-8880-4050c1d0c26e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>opacity</name>
+      <type>Main</type>
+      <value>0.2</value>
+      <webElementGuid>4585acdd-28ae-42c0-9ebf-7625369d0be0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r26:-content-personal&quot;)/div[@class=&quot;max-h-[200px] overflow-y-auto space-y-2&quot;]/div[@class=&quot;border p-4 rounded-2xl flex justify-between&quot;]/div[2]/button[@class=&quot;inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 w-10&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>3e171768-d9a3-46fe-97ce-d9a2dcb16c86</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_P002_ParafSuccess_SubmitSpecimen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>316f9f2d-e0a5-4a5d-8546-3624eb4cfc5f</testCaseGuid>
+</TestCaseEntity>

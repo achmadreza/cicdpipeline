@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_of5_absolute inset-0</name>
+   <tag></tag>
+   <elementGuidId>ade5cbc2-6083-4b47-8972-23a3d95927f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.absolute.inset-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[2]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f0a0f92b-418b-4120-bfd8-3eb44efb9c30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute inset-0</value>
+      <webElementGuid>36cd3694-5a88-432b-b6ff-94a727a6fd48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;light&quot;]/body[@class=&quot;min-h-screen bg-[#F8F8F8] font-sans antialiased __variable_0aa786&quot;]/div[@class=&quot;flex flex-col h-screen&quot;]/div[@class=&quot;flex flex-1 overflow-hidden&quot;]/main[@class=&quot;flex flex-1 w-full overflow-y-auto p-4 bg-[#F8F8F8] dark:bg-[#2F3438]&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;flex flex-col&quot;]/div[@class=&quot;flex pb-10&quot;]/div[@class=&quot;flex flex-col flex-1 bg-white dark:bg-gray-600 max-h-fit&quot;]/div[2]/div[@class=&quot;w-full relative&quot;]/div[@class=&quot;absolute inset-0&quot;]</value>
+      <webElementGuid>b51d0131-4ada-423e-aebe-7c90f046af67</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]</value>
+      <webElementGuid>5d28c2f0-3bac-4134-a1ec-020d866ff6ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

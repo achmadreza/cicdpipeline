@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_P001_Paraf Success Single Stroke</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d57497a-a65e-41b6-8efc-b60ac7186d67</testCaseGuid>
+</TestCaseEntity>

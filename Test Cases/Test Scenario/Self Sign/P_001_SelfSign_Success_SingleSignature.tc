@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P_001_SelfSign_Success_SingleSignature</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e1a7840-e30e-4132-be3b-96763d68d4c0</testCaseGuid>
+</TestCaseEntity>

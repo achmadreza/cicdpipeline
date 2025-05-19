@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P_002_Self Sign Success Multiple Signatures</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b70b6b0a-f58a-44ae-9530-e88af343e681</testCaseGuid>
+</TestCaseEntity>

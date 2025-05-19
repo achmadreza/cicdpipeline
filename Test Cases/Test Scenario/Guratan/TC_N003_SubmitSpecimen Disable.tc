@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_N003_SubmitSpecimen Disable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d1460fa4-9c5a-427f-94a8-415b2a0ab574</testCaseGuid>
+</TestCaseEntity>

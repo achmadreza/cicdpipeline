@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>canvas_purple_border border-slate-500 mx-auto my-5</name>
+   <tag></tag>
+   <elementGuidId>4669110b-c7a3-4578-82b5-775130538944</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//canvas[contains(@class, 'border-slate-500')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>canvas.border.border-slate-500.mx-auto.my-5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>canvas</value>
+      <webElementGuid>51b986d0-c5ee-48f2-b7cb-e4158b47647e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>300px</value>
+      <webElementGuid>5c8034e6-f949-45a2-8747-655f4ccb4918</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>300px</value>
+      <webElementGuid>0b0f65f7-d2b7-4a3a-bdad-35f20a4fef4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border border-slate-500 mx-auto my-5</value>
+      <webElementGuid>e670332d-f8d0-4593-8548-c1ce686772b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r14:&quot;)/div[@class=&quot;mx-auto&quot;]/canvas[@class=&quot;border border-slate-500 mx-auto my-5&quot;]</value>
+      <webElementGuid>94469821-a75e-4718-997e-e95061a1fa20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r14:']/div[2]/canvas</value>
+      <webElementGuid>620f453a-e41b-4ff8-9219-83ad72371121</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//canvas</value>
+      <webElementGuid>f1f015df-d256-48f6-bde6-7eda6a32ba7c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

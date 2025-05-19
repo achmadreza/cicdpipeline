@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pengaturan</name>
+   <tag></tag>
+   <elementGuidId>0d5312f5-cff2-435d-9b55-02d9889cc9f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Pengaturan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f0ba58e4-624c-45f3-b656-7497fab2f350</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 flex items-center justify-start w-full gap-2 generate-certificate-1 generate-certificate-6 text-xs 2xl:text-base</value>
+      <webElementGuid>72392fc1-3d77-489c-8727-c9c650382ad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/settings</value>
+      <webElementGuid>4735002b-dd72-4aef-a721-200ebaafd59f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pengaturan</value>
+      <webElementGuid>2375a559-7006-4cb6-a2de-b5cd2f84e16c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;light&quot;]/body[@class=&quot;min-h-screen bg-[#F8F8F8] font-sans antialiased __variable_0aa786&quot;]/div[@class=&quot;flex flex-col h-screen&quot;]/div[@class=&quot;flex flex-1 overflow-hidden&quot;]/aside[@class=&quot;block bg-white dark:bg-[#373C3F] w-1/6 overflow-y-auto&quot;]/div[@class=&quot;pb-4 overflow-y-auto&quot;]/div[@class=&quot;py-3 space-y-4&quot;]/div[@class=&quot;px-2 py-2&quot;]/div[@class=&quot;space-y-1&quot;]/a[@class=&quot;whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 flex items-center justify-start w-full gap-2 generate-certificate-1 generate-certificate-6 text-xs 2xl:text-base&quot;]</value>
+      <webElementGuid>46fd022a-1d70-497a-b845-1e8f13851f97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Pengaturan')]</value>
+      <webElementGuid>5db96985-6eac-410b-90c3-f1044d6652dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengaturan'])[1]/following::a[1]</value>
+      <webElementGuid>7ca1a49a-76d9-4f62-8759-38711588ba9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grup'])[1]/following::a[1]</value>
+      <webElementGuid>9b61387d-bff4-4612-b719-a5999ccd577e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kontak'])[1]/preceding::a[1]</value>
+      <webElementGuid>3ed32dd7-64a5-46c2-9682-666c9905d647</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SALDO TTE &amp; E-PARAF'])[1]/preceding::a[2]</value>
+      <webElementGuid>d8b4037f-ca21-47da-a5a0-76ab8c3a8f71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/settings')]</value>
+      <webElementGuid>13eaf28e-7cca-4e32-aa2f-6c7de1cb7602</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a</value>
+      <webElementGuid>175525d6-a5a1-44e9-bf05-0309222a9c2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/settings' and (text() = 'Pengaturan' or . = 'Pengaturan')]</value>
+      <webElementGuid>68ad9ac0-626f-4d97-ad83-5279dfbba989</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

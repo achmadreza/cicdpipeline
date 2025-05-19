@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N_003_SelfSign_WithWrong3PIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>511f67e9-fe48-40a9-9f84-d341b44167af</testCaseGuid>
+</TestCaseEntity>
