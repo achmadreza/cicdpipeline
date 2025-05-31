@@ -23,12 +23,12 @@ jobs:
     - name: Install Katalon Studio
       run: |
         wget https://download.katalon.com/8.6.5/Katalon_Studio_Engine_Linux_64-8.6.5.tar.gz
-        tar -xvzf Katalon_Studio_Engine_Linux_64-8.6.5.tar.gz
-        chmod -R +x Katalon_Studio_Engine_Linux_64-8.6.5
+        tar -xvzf Katalon_Studio_Engine_Windows_64-9.4.0.tar.gz
+        chmod -R +x Katalon_Studio_Engine_Windows_64-9.4.0
 
     - name: Run Katalon Tests
       run: |
-        ./Katalon_Studio_Engine_Linux_64-8.6.5/katalon -noSplash \
+        ./Katalon_Studio_Engine_Windows_64-9.4.0/katalon -noSplash \
         -runMode=console \
         -projectPath=$(pwd)/YourProject.prj \
         -testSuitePath="Test Suites/YourTestSuite" \
