@@ -20,18 +20,22 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
 
-    - name: Download & Extract Katalon Studio Engine (Linux)
+    - name: Download & Extract Katalon Studio Engine 8.6.5 (Linux)
       run: |
-        wget https://download.katalon.com/9.4.0/Katalon_Studio_Engine_Linux_64-9.4.0.tar.gz -O katalon.tar.gz
+        wget https://download.katalon.com/8.6.5/Katalon_Studio_Engine_Linux_64-8.6.5.tar.gz -O katalon.tar.gz
         tar -xvzf katalon.tar.gz
-        chmod -R +x Katalon_Studio_Engine_Linux_64-9.4.0
+        chmod -R +x Katalon_Studio_Engine_Linux_64-8.6.5
+
+    - name: List extracted files (debug)
+      run: |
+        ls -l ./Katalon_Studio_Engine_Linux_64-8.6.5
 
     - name: Run Katalon Tests
       run: |
-        ./Katalon_Studio_Engine_Linux_64-9.4.0/katalon -noSplash \
+        ./Katalon_Studio_Engine_Linux_64-8.6.5/katalon -noSplash \
         -runMode=console \
-        -projectPath=$(pwd)/YourProject.prj \
-        -testSuitePath="Test Suites/YourTestSuite" \
+        -projectPath=$(pwd)/cicdpipeline.prj \
+        -testSuitePath="Test Suites/Guratan" \
         -browserType="Chrome" \
         -executionProfile="default" \
         -apiKey=${{ secrets.KATALON_API_KEY }}
