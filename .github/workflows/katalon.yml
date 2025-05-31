@@ -1,4 +1,4 @@
-name: Katalon Test Automation
+name: Run Katalon Tests
 
 on:
   push:
@@ -6,14 +6,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  katalon-test:
+  test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Run Katalon Tests
-        uses: katalon-studio/katalon-action@v3.0
+      - name: Run Katalon Studio tests
+        uses: katalon-studio/katalon-action@v2.0.10
         with:
           version: '8.6.5'
           projectPath: '.'
