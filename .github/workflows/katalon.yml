@@ -2,42 +2,26 @@ name: Katalon Test Automation
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   katalon-test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Java
-      uses: actions/setup-java@v3
-      with:
-        java-version: '11'
-        distribution: 'adopt'
-
-    - name: Download Katalon Studio Engine
-      run: |
-        wget https://download.katalon.com/8.6.5/Katalon_Studio_Engine_Linux_64-8.6.5.tar.gz -O katalon.tar.gz
-        tar -xvzf katalon.tar.gz
-        chmod -R +x Katalon_Studio_Engine_Linux_64-8.6.5
-
-    - name: Debug folder structure
-      run: |
-        ls -lah
-        ls -lah Katalon_Studio_Engine_Linux_64-8.6.5
-        file Katalon_Studio_Engine_Linux_64-8.6.5/katalon || echo "Katalon binary not found"
-
-    - name: Run Katalon Tests
-      run: |
-        ./Katalon_Studio_Engine_Linux_64-8.6.5/katalon -noSplash \
-        -runMode=console \
-        -projectPath="$(pwd)/cicdpipeline.prj" \
-        -testSuitePath="Test Suites/Guratan" \
-        -browserType="Chrome" \
-        -executionProfile="default" \
-        -apiKey="${{ secrets.KATALON_API_KEY }}"
+      - name: Run Katalon Studio Tests
+        uses: katalon-studio/katalon-studio-github-action@v2.0.10
+        with:
+          version: '8.6.5'
+          projectPath: '.'
+          args: >
+            -noSplash -runMode=console
+            -projectPath="$(pwd)/cicdpipeline.prj"
+            -testSuitePath="Test Suites/Guratan"
+            -browserType="Chrome"
+            -executionProfile="default"
+          apiKey: ${{ secrets.KATALON_API_KEY }}
