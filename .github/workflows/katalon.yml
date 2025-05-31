@@ -20,22 +20,17 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
 
-    - name: Download & Extract Katalon Studio Engine 8.6.5
+    - name: Download & Extract Katalon Studio Engine
       run: |
         wget https://download.katalon.com/8.6.5/Katalon_Studio_Engine_Linux_64-8.6.5.tar.gz -O katalon.tar.gz
         tar -xvzf katalon.tar.gz
         chmod -R +x Katalon_Studio_Engine_Linux_64-8.6.5
 
-    - name: Debug File Check
+    - name: Debug check
       run: |
-        echo "Current directory:"
-        pwd
-        echo "List root:"
-        ls -l
-        echo "List inside extracted folder:"
-        ls -l Katalon_Studio_Engine_Linux_64-8.6.5
-        echo "Check katalon binary:"
-        file Katalon_Studio_Engine_Linux_64-8.6.5/katalon || echo "File not found"
+        ls -lah
+        ls -lah Katalon_Studio_Engine_Linux_64-8.6.5
+        file Katalon_Studio_Engine_Linux_64-8.6.5/katalon || echo "Katalon binary not found"
 
     - name: Run Katalon Tests
       run: |
